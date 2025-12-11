@@ -4,11 +4,11 @@ TaskNest es una aplicación web fullstack desarrollada con **React**, **Node.js*
 Permite que un usuario se registre, inicie sesión y gestione sus tareas personales mediante un CRUD completo,
 todo protegido con autenticación basada en **JSON Web Tokens (JWT)**.
 
-Este proyecto está preparado para ser ejecutado en local y usado como demo en una defensa de proyecto final.
+Este proyecto está preparado para ser ejecutado como proyecto final.
 
 ---
 
-## 🧱 Estructura de carpetas
+##  Estructura de carpetas
 
 ```bash
 tasknest-fullstack-final/
@@ -18,7 +18,7 @@ tasknest-fullstack-final/
 
 ---
 
-## ⚙️ 1. Puesta en marcha del BACKEND
+## 1. Puesta en marcha del BACKEND
 
 ### 1.1. Entrar a la carpeta backend
 
@@ -59,8 +59,8 @@ npm run dev
 Si todo está bien, deberías ver en la consola algo como:
 
 ```text
-✅ MongoDB conectado
-🚀 Servidor escuchando en el puerto 5000
+ MongoDB conectado
+ Servidor escuchando en el puerto 5000
 ```
 
 La API quedará disponible en:
@@ -73,7 +73,7 @@ http://localhost:5000/api/tasks
 
 ---
 
-## 💻 2. Puesta en marcha del FRONTEND
+## 2. Puesta en marcha del FRONTEND
 
 ### 2.1. Entrar a la carpeta frontend
 
@@ -105,7 +105,7 @@ Abre ese enlace en tu navegador.
 
 ---
 
-## 🔐 3. Flujo de autenticación
+## 3. Flujo de autenticación
 
 1. Desde el frontend, ve a la pantalla de **Registro**.
 2. Crea un usuario nuevo (nombre, email, contraseña).
@@ -120,7 +120,7 @@ Las rutas de `/api/tasks` están protegidas por un middleware que comprueba el t
 
 ---
 
-## ✅ 4. Funcionalidades principales
+## 4. Funcionalidades principales
 
 ### Autenticación
 
@@ -140,20 +140,21 @@ Cada tarea está asociada al usuario autenticado mediante el campo `user` en el 
 
 ---
 
-## 🎨 5. Diseño y experiencia de usuario
+## 5. Diseño y experiencia de usuario
 
 El frontend incluye:
 
 - **Fondo animado** con gradiente.
-- Inputs con bordes que se iluminan al hacer foco.
+- Inputs con bordes que se iluminan al hacer foco (idea desde el proyecto de clase).
 - Botones con efecto glow y sombras suaves.
-- Tarjetas con efecto glassmorphism para formularios y lista de tareas.
+- Tarjetas con efecto glassmorphism para formularios y lista de tareas (el cual me gusto en tutorial).
 - Pantallas de **Login** y **Registro** con estilos diferenciados.
 - Layout responsivo que se adapta a pantallas pequeñas.
+- Todo creado con CSS.
 
 ---
 
-## 🧪 6. Pruebas rápidas
+## 6. Pruebas rápidas
 
 Para comprobar que todo funciona:
 
@@ -163,7 +164,7 @@ Para comprobar que todo funciona:
 4. Cierra sesión y vuelve a iniciar.
 5. Crea, edita y elimina tareas desde el Dashboard.
 
-Si algo falla, revisa:
+Si algo falla, revisar:
 
 - Consola del backend (errores de conexión a MongoDB).
 - Consola del navegador (errores de red o CORS).
@@ -171,6 +172,6 @@ Si algo falla, revisa:
 
 ---
 
-## 🧑‍💻 Autora
+## Autora
 
-Proyecto preparado para la defensa de proyecto final de **Jessica Rissotto**.
+Proyecto **Jessica Rissotto**.
